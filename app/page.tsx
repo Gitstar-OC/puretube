@@ -41,7 +41,7 @@ export default function LandingPage() {
             >
               Get Started
             </Button>
-            <Button asChild variant="ghost" size="sm" className="text-sm">
+            <Button asChild variant="ghost" size="sm" className="text-sm text-black hover:text-black hover:bg-neutral-300/20">
               <a href="#features" className="flex items-center gap-1">
                 Learn More
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
