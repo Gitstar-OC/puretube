@@ -7,9 +7,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "QuitYoutube",
+  title: "Puretube",
   description: "A distraction-free YouTube experience",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

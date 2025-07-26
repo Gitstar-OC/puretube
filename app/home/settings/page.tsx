@@ -102,7 +102,7 @@ export default function SettingsPage() {
 
       const link = document.createElement("a")
       link.href = url
-      link.download = `quityoutube-data-${new Date().toISOString().split("T")[0]}.json`
+      link.download = `puretube-data-${new Date().toISOString().split("T")[0]}.json`
       document.body.appendChild(link)
       link.click()
       document.body.removeChild(link)
