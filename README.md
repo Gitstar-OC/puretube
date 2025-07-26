@@ -26,3 +26,20 @@ Also currently there are some issues with this app which are if you open multipl
 
 ---
 
+### Running it locally
+
+First create a .env file with your Google Youtube API Key it should have the following content 
+
+```
+API_KEY="Your API Key"
+```
+
+then you can download and run the code simply using npm or bun 
+
+```
+npm install
+npm run dev
+```
+
+
+
